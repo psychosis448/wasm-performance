@@ -149,10 +149,6 @@ graphs shown are mostly for macbook, 10<sup>5</sup> array and 150x150 mazes</sub
 * ./rust-lib        = rust library
 * ./vue-app         = vue.js web application
 
-### Branches
-
-* `smartphone` contains the adjusted benchmark data with reduced sizes
-
 ### Install Dependencies
 
 ```bash
