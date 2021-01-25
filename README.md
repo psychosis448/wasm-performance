@@ -182,7 +182,10 @@ cd vue-app && npm run build
 ## this builds the vue application to ./node-server/public
 ## this also automatically installs all necessary crates and
 ## builds the rust-lib as wasm-pkg
-## the branch `smartphone` contains the fixed tests for smartphones
+
+# create test-data
+cd node-server && npm run create
+## creates test data in ./data
 ```
 
 ### Run
@@ -191,6 +194,9 @@ cd vue-app && npm run build
 # node-server
 cd node-server && npm run start
 ## server starts on port 8081
+
+## run the tests in the browser
+## save the result to python-analysis/data
 
 # python-analysis
 ## requires mongodb to be installed
@@ -202,6 +208,7 @@ python __main__.py
 ## if necessary change the mongodb installation path
 ## and/or the database path accordingly in the start method of:
 ## ./python-analysis/src/data_base/mongo.py
+## the finished analysis will be saved in ptyhon-analysis/analysis
 ```
 
 ### Tests
@@ -218,4 +225,3 @@ cd rust-lib && cargo test && wasm-pack test --node
 
 * the vue-app contains visualizations of the generated mazes and the found solution -> links on the start page
 * running the vue-app in developer mode does not work for multiple workers -> build & run from node-server (as described above)
-* the python code is not refactored and does not follow good coding standards (minor code duplications)
