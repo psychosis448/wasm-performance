@@ -120,7 +120,7 @@ graphs shown are mostly for macbook, 10<sup>5</sup> array and 150x150 mazes</sub
 | 10<sup>5</sup> | 284.62% | 890.13% | 303.37% |
 | 10<sup>6</sup> | 280.29% | 830.08% | 323.72% |
 
-### Size Comparison
+### Bundle Size Comparison
 
 | target               | normal |  gzip | brotli |
 | -------------------- | -----: | ----: | -----: |
