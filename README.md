@@ -136,6 +136,8 @@ graphs shown are mostly for macbook, 10<sup>5</sup> array and 150x150 mazes</sub
 
 ## Development Setup
 
+### Requirements
+
 * [node.js](https://howtonode.org/how-to-install-nodejs)
 * [rust](https://www.rust-lang.org/tools/install)
 * [wasm-pack](https://rustwasm.github.io/wasm-pack/installer)
